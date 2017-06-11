@@ -1,5 +1,10 @@
-import React, {Component} from 'react';
-import { AppRegistry, StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 import Header from './src/components/header';
 
 export default class albumsregistry extends React.Component {
@@ -17,8 +22,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
+    justifyContent: 'center'
+  }
 });
 
-AppRegistry.registerComponent('albumsregistry', () => albumsregistry);
+AppRegistry.registerComponent(
+  'albumsregistry',
+  () => albumsregistry
+);
